@@ -9,3 +9,12 @@ Các thông tin cần thiết để khởi chạy :
 + Dùng cổng localhot 8082
 + Mk code backend nên dùng Post Man để test API nhưng cũng tích hợp thêm Swagger API Doc để người khác có thể test, xem API một cách trực quan hơn :
 Link Swagger Doc : http://localhost:8082/swagger-ui.html
+
+--------------------
+Các chức năng có trong project này : 
+
++ Thêm , Sửa ,Xoá đối tượng Weather trong DataBase 
++ Tìm kiếm đối tượng Weather trong DataBase - nếu không tìm thấy trong database sẽ gọi API thứ 3 trên (https://openweathermap.org/current#name) để tìm 
++ Tìm kiếm theo Tên, ID thành phố , lọc tìm kiếm theo khoảng ngày theo tên (FromDate, ToDate)
++ Xuất file PDF,Excell
++ Login bằng Spring Security + JWT
