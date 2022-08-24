@@ -6,3 +6,6 @@ Các thông tin cần thiết để khởi chạy :
 + Table trong DataBase sẽ tự động tạo sinh ra khi khởi chạy server
 + Cần thêm thủ công Role vào bảng Role trong DataBase với tên Role có định dạng : ROLE_XXXX   với   XXXX: là ADMIN,USER,....
 + Có thể thêm nhanh thủ công user,role và bảng user_role để chạy test
++ Dùng cổng localhot 8082
++ Mk code backend nên dùng Post Man để test API nhưng cũng tích hợp thêm Swagger API Doc để người khác có thể test, xem API một cách trực quan hơn :
+Link Swagger Doc : http://localhost:8082/swagger-ui.html
