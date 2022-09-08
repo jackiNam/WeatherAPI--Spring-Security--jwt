@@ -3,7 +3,7 @@ Các thông tin cần thiết để khởi chạy :
 + Web API weather, định dạng mẫu của đối tượng json weather mà được dùng trong dự án:
        https://openweathermap.org/current#current_JSON
 + Sử dụng MySQL
-+ Table trong DataBase sẽ tự động tạo sinh ra khi khởi chạy server
++ Table trong DataBase sẽ tự động tạo sinh ra khi khởi chạy server , chỉ cần tạo 1 csdl có tên giống với tên trong file properties
 + Cần thêm thủ công Role vào bảng Role trong DataBase với tên Role có định dạng : ROLE_XXXX   với   XXXX: là ADMIN,USER,....
 + Có thể thêm nhanh thủ công user,role và bảng user_role để chạy test
 + Dùng cổng localhot 8082
